@@ -1,5 +1,6 @@
+import React from 'react';
 
-const Button = (text) => {
+const Button = ({text}) => {
     return(
         <button onClick={() => console.log("click")}>
             {text}
